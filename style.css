@@ -1,22 +1,86 @@
 body { 
     background: rgb(192, 188, 188);
+    font-family: verdana;   
+    max-width: 900px;
+    margin: auto;
 }
 
+#title {
+font-style: italic;
+font-size: 40px;
+text-transform:capitalize
+}
+
+a {
+
+text-decoration: line-through;
+color: black
+
+
+}
 
 #title, .subtitle, .posttitle {
     color:blue
 }
 
+
+
+
 .posttitle 
 {
 font-size: 23px;
 font-style: italic;
+margin: 0;
+margin-bottom: 15px;
 }
 
 .post{
     background: white;
-    padding: 10px;
+    padding: 15px;
     border: 3px solid black;
-    margin: 10px
+    margin: 10px;
+    border-top-color:brown;
+    margin-bottom: 15px;
+    border-bottom: 15px solid green;
+    border-right: 15px solid crimson;
     
+
+
+}
+
+.postcontent{
+
+    margin-bottom: 325%;
+    margin: 20px 30px 40px 30px;
+    text-align: justify;
+    text-transform:capitalize
+    }
+
+    .lista1{
+
+        list-style-type: square;
+
+
+    }
+
+    .lista1 li a{
+
+        color:brown;
+        text-decoration:none
+        
+    }
+
+    .p2{
+
+        border: 3px solid rgb(178, 39, 39);
+        border-radius: 10%;
+        border-width: 5px;
+        size-adjust: 10px;
+      
+    }
+    
+.postimage{
+
+    margin-bottom: 15px;
+    width: 100%;
 }
